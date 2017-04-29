@@ -29,6 +29,6 @@ Once the text has been created it should be rendered on the screen. To animate u
 The fly method takes two parameters:
 <br>
 <ul>
-<li>`- time: the time it takes for each letter to fly synchronously` </li>
-<li>`- params: the params that are transferred from Corona's transition parameters, see <a href="https://docs.coronalabs.com/api/library/transition/to.html">here!</a>`
+<li>- time: the time it takes for each letter to fly synchronously </li>
+<li>- params: the params that are transferred from Corona's transition parameters, see <a href="https://docs.coronalabs.com/api/library/transition/to.html">here!</a>
 </ul>
