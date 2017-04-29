@@ -45,3 +45,5 @@ text:fly(50,{y=30,time=500,transition=easing.outSine,onComplete=function() test:
 <br><br>
 <strong>Notice:</strong> not all fonts are compatible ie. due to the algorithm I've implemented some fonts have unequal kerning between letters, if you would like to help and fix this bug feel free to contribute!
 Thank you!
+<br><br>
+![alt text](res/ex.gif?raw=true "Screenshot")
