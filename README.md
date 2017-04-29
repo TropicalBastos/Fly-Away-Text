@@ -19,9 +19,11 @@ Create a new FlyAwayText object, it is like instantiating a Text display object 
 </ul>
 <br>
 Instiate the object like so:
+
 ```lua
 local text = FlyAwayText.new({text="Fly Away Text",font=font})
 ```
+
 If no x or y values are passed in then they default to <i>display.contentCenterX and display.contentCenterY</i>
 <br><br>
 Once the text has been created it should be rendered on the screen. To animate use the objects <strong>fly</strong> method.
@@ -35,9 +37,11 @@ The fly method takes two parameters:
 <br><br>
 Here is an example of how to call the fly method:
 <br>
+
 ```lua
 text:fly(50,{y=30,time=500,transition=easing.outSine,onComplete=function() test:fly(80,{y=400,time=500,transition=easing.outSine}) end})
 ```
+
 <br><br>
 <strong>Notice:</strong> not all fonts are compatible ie. due to the algorithm I've implemented some fonts have unequal kerning between letters, if you would like to help and fix this bug feel free to contribute!
 Thank you!
