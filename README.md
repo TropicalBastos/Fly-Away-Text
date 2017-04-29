@@ -9,11 +9,17 @@ local flyAwayText = require("FlyAwayText")
 ```
 
 Usage:
-<br>
+<br><br>
 Create a new FlyAwayText object, it is like instantiating a Text display object in Corona, so its sole parameter is a table containing the text options which are:
 <ul>
-<li>- String </li>
-<li>- Font </li>
+<li>- text </li>
+<li>- font </li>
 <li>- x </li>
 <li>- y </li>
 </ul>
+<br>
+Instiate the object like so:
+```lua
+local text = FlyAwayText.new({text="Fly Away Text",font=font})
+```
+If no x or y values are passed in then it they default to display.contentCenter
