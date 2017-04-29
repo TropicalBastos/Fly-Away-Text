@@ -23,3 +23,10 @@ Instiate the object like so:
 local text = FlyAwayText.new({text="Fly Away Text",font=font})
 ```
 If no x or y values are passed in then they default to <i>display.contentCenterX and display.contentCenterY</i>
+<br><br>
+Once the text has been created it should be rendered on the screen. To animate use the objects <strong>fly</strong> method.
+<br>The fly method takes two parameters:
+<ul>
+<li>- time: the time it takes for each letter to fly synchronously </li>
+<li>- params: the params that are transferred from Corona's transition parameters, see <a href="https://docs.coronalabs.com/api/library/transition/to.html">here!</a>
+</ul>
