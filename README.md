@@ -22,4 +22,4 @@ Instiate the object like so:
 ```lua
 local text = FlyAwayText.new({text="Fly Away Text",font=font})
 ```
-If no x or y values are passed in then it they default to display.contentCenter
+If no x or y values are passed in then they default to <i>display.contentCenterX and display.contentCenterY</i>
