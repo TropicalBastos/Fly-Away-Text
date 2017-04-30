@@ -26,7 +26,7 @@ local text = FlyAwayText.new({text="Fly Away Text",font=font})
 
 If no x or y values are passed in then they default to <i>display.contentCenterX and display.contentCenterY</i>
 <br><br>
-Once the text has been created it should be rendered on the screen. To animate use the objects <strong>fly</strong> method.
+Once the text has been created it should be rendered on the screen. To animate use the object's <strong>fly</strong> method.
 <br><br>
 The fly method takes two parameters:
 <br><br>
