@@ -107,4 +107,11 @@ function flyAwayText:fly(delta,options)
 
 end
 
+
+function flyAwayText:removeSelf()
+  for i = 1, #self.textArray do
+    self.textArray[i]:removeSelf()
+  end
+end
+
 return flyAwayText
