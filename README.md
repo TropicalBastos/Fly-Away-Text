@@ -18,7 +18,7 @@ Create a new FlyAwayText object, it is like instantiating a Text display object 
 <li>- y </li>
 </ul>
 <br>
-Instiate the object like so:
+Instantiate the object like so:
 
 ```lua
 local text = FlyAwayText.new({text="Fly Away Text",font=font})
