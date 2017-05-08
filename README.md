@@ -40,7 +40,7 @@ Here is an example of how to call the fly method:
 
 ```lua
 local flyOptions = {
-  {y=30,
+  y=30,
   time=500,
   transition=easing.outSine,
 }
