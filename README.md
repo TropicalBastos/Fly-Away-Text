@@ -39,7 +39,13 @@ Here is an example of how to call the fly method:
 <br>
 
 ```lua
-text:fly(50,{y=30,time=500,transition=easing.outSine,onComplete=function() test:fly(80,{y=400,time=500,transition=easing.outSine}) end})
+local flyOptions = {
+  {y=30,
+  time=500,
+  transition=easing.outSine,
+}
+
+text:fly(50,flyOptions)
 ```
 
 <br><br>
