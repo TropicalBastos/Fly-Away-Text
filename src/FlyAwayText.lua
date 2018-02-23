@@ -23,10 +23,20 @@ function flyAwayText.new(options)
     options.y = display.contentCenterY
   end
 
+  if options.fontSize == nil then
+    options.fontSize = 16
+  end
+
   local charArray = {}
   for i = 1, #options.text do
     local string = options.text
-    charArray[i] = display.newText({text=string:sub(i,i),font=options.font,x=options.x,y=options.y})
+    charArray[i] = display.newText({
+      text=string:sub(i,i),
+      font=options.font,
+      x=options.x,
+      y=options.y,
+      fontSize=options.fontSize
+    })
   end
 
   local TextObject = {
